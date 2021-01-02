@@ -1,0 +1,130 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header__top {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color:green;
+  }
+  
+  .header__top a {
+    display: flex;
+    text-decoration: none;
+    font-style: unset;
+    color: white;
+  }
+  
+  .option-hover:hover {
+    box-shadow: 0 0 0 1px #fff inset;
+  }
+  
+  .header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 10px;
+    margin-top: 0px;
+  }
+  
+  .header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+  }
+  
+  .header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }
+  
+  .header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+  }
+  
+  .header__optionLineOne {
+    font-size: 10px;
+  }
+  
+  .header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+  }
+  
+  .header__optionFeature {
+    display: flex;
+    margin-right: 5px;
+    align-items: center;
+    color: white;
+  }
+  
+  .header__optionFeature:active {
+    transform: translateY(2px);
+  }
+  
+  .header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .subheader {
+    display: flex;
+    align-items: center;
+    background-color:#cd9042;
+    height: 39px;
+  }
+  
+  .subheader__left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subheader__left > .header__optionFeature {
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 2px;
+  }
+  
+  .subheader__left > .header__option {
+    margin-left: 2px;
+    padding: 0;
+  }
+  
+  .subheader__right {
+    color: white;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .subheader__right > p {
+    border-radius: 3px;
+    font-size: 15px;
+    margin-right: 20px;
+    padding: 5px;
+  }
+  
+  .subheader__right > p:hover {
+    box-shadow: 0 0 0 1px #fff inset;
+  }
