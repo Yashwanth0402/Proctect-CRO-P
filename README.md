@@ -1,6 +1,6 @@
 # Proctect-CRO-P
 
-This project all about helping in choosing crops and buying products
+This project all about helping in choosing crops and buying agriculture based products
 
 Run yarn start for a dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files.
 
